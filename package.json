@@ -1,0 +1,19 @@
+{
+  "name": "jeetio",
+  "version": "1.0.0",
+  "description": "Clash Royale Tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shengqiw/jeetio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shengqiw/jeetio/issues"
+  },
+  "homepage": "https://github.com/shengqiw/jeetio#readme"
+}
