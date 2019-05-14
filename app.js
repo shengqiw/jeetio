@@ -3,7 +3,7 @@ const port = 9000;
 var express = require("express");
 var app = express();
 
-app.use(express.static('/mnt/c/Users/ShengqiWang/Documents/projects/jeetio/'));
+app.use(express.static('public'));
 
 
 app.get('/', function(req, res){
