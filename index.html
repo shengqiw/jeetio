@@ -24,27 +24,27 @@
         <br><br><br><br>
         <div class="row">
             <!-- <img src="/public/cr-bg1.jpg" class="img-fluid h-60"> -->
-            <div class="offset-xs-1 col-xs-12 offset-md-3 col-md-6 text-center bg-white rounded" style="opacity:0.6;">
-                <h1 class="text-dark">WELCOME TO JEETIO</h1>
+            <div class="offset-2 col-8 text-center bg-white rounded" style="opacity:0.6;">
+                <h1 class="text-dark" style="font-size:5vw;">WELCOME TO JEETIO</h1>
             </div>
         </div>
         <div class="container-fluid text-center" style="position: absolute; top: 80%;">
             <div class="row">
-                <div class="offset-3 col-3">
-                    <a class="btn btn-primary w-100 btn_scroll btn-lg" href="#target_rules">See Rules</a>
+                <div class="offset-1 col-5 offset-lg-3 col-lg-3">
+                    <a class="btn btn-primary w-100 btn_scroll btn-lg" style="font-size: 2.5vh" href="#target_rules">See Rules</a>
                 </div>
-                <div class="col-3">
-                    <a class="btn btn-warning w-100 btn_scroll btn-lg" href="#target_stats">Clan Stats</a>
+                <div class="col-5 col-lg-3">
+                    <a class="btn btn-warning w-100 btn_scroll btn-lg" style="font-size: 2.5vh" href="#target_stats">Clan Stats</a>
                 </div>
             </div>
         </div>
     </div>
     <div class="container-fluid h-100" id="target_rules" style="overflow-y: scroll;">
-        <div class="row">
+        <div class="row w-100" style="position: absolute; top: 150%; transform: translateY(-45%);">
             <div class="offset-2 col-8">
-                <div class="container-fluid h-100 rounded mt-4" style="background-color: white;">
+                <div class="container-fluid h-100 rounded" style="background-color: white; margin-top: 2vmin">
                     <div class="row">
-                        <div class="offset-2 col-8 text-center">
+                        <div class="offset-2 col-8 offset-lg-1 col-lg-10 text-center" style="margin-bottom: 1vh">
                             <h1 class="pt-4"><b>Clan Rules</b></h1>
                         </div>
                     </div>
@@ -54,33 +54,32 @@
                             <h4>2. Don't miss war battles</h4>
                             <h4>3. Practice war deck before going in</h4>
                             <h4>4. Have Fun!</h4>
-                            <br>
+                            <!-- <br> -->
                         </div>
                     </div>
                     <hr class="pt-3">
                     <div class="row">
-                        <div class="offset-2 col-8 text-center">
+                        <div class="offset-2 col-8 text-center" style="margin-bottom: 1vh">
                             <h1><b>Promotion</b></h1>
                         </div>
                     </div>
                     <div class="row pt-0 text-left">
-                        <div class="offset-1 col-5">
+                        <div class="offset-1 col-10 offset-lg-1 col-lg-5 mb-4">
                             <h3 class="text-center">Elder</h3><br>
                             <h5>1. Win 4 final battles in the past 5 wars</h5>
                             <h5>2. 300+ donations for the week</h5>
                         </div>
-                        <div class="col-5">
+                        <div class="offset-1 col-10 offset-lg-0 col-lg-5">
                             <h3 class="text-center">Co-Leader</h3><br>
                             <h5>1. Be elder for 1+ month</h5>
                             <h5>2. 600+ donations for the week</h5>
                             <h5>3. Play 5 founding leaders and defeat 3</h5>
                             <a class="btn btn-info mt-1" data-toggle="modal" data-target="#leaders_modal">Info Here</a>
-                            <br>
                         </div>
                     </div>
-                    <hr>
+                    <hr class="pt-3">
                     <div class="row">
-                        <div class="offset-2 col-8 text-center">
+                        <div class="offset-2 col-8 text-center" style="margin-bottom: 1vh; margin-top: 1vh">
                             <h1><b>How to get kicked</b></h1>
                         </div>
                     </div>
@@ -168,9 +167,6 @@
         background-position: center;
     }
 
-    .btn_scroll {
-        /* height: 50px; */
-    }
 </style>
 <script>
     $(function () {
